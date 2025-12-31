@@ -5,8 +5,9 @@
   --text:#e5e7eb;
   --muted:#94a3b8;
 
-  --accent:#38bdf8;
-  --accent2:#0ea5e9;
+
+  --accent:#0ea5e9;
+  --accent2:#38bdf8;
 
   --glass:rgba(255,255,255,0.04);
   --card:rgba(255,255,255,0.06);
@@ -784,3 +785,4 @@ section {
   opacity:1;
   transform:translateY(0) scale(1);
 }
+
