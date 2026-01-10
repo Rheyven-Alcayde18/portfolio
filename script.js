@@ -116,4 +116,16 @@
     return false;
   };
 
+  function openCert(){
+  const modal = document.getElementById("certModal");
+  modal.style.display = "flex";
+  modal.setAttribute("aria-hidden", "false");
+}
+
+function closeCert(){
+  const modal = document.getElementById("certModal");
+  modal.style.display = "none";
+  modal.setAttribute("aria-hidden", "true");
+}
+
 })();
